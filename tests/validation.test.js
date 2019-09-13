@@ -43,7 +43,7 @@ maybeDescribe('validation', function() {
         test.resources.push(rest.resource({
           model: test.models.User,
           endpoints: ['/users', '/user/:id'],
-          documentValidation: true
+          documentWriteValidation: true
         }));
       });
   });
